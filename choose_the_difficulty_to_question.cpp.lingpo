@@ -1,0 +1,67 @@
+#include "choose_the_difficulty_to_question.h"
+#include "ui_choose_the_difficulty_to_question.h"
+#include "QWidget"
+#include "QLabel"
+#include "QVBoxLayout"
+#include "QTimer"
+#include "QObject"
+
+choose_the_difficulty_To_question::choose_the_difficulty_To_question(QWidget *parent)
+    : QDialog(parent)
+    , ui(new Ui::choose_the_difficulty_To_question)
+{
+    ui->setupUi(this);
+}
+
+choose_the_difficulty_To_question::~choose_the_difficulty_To_question()
+{
+    delete ui;
+}
+
+void choose_the_difficulty_To_question::on_easy_clicked()
+{
+    // QWidget *window_for_show_question = new QWidget();
+    // QPushButton *button_ok = new QPushButton(" ok ");
+    // QVBoxLayout *layout = new QVBoxLayout();
+    // layout->addWidget(button_ok);
+    // window_for_show_question->setLayout(layout);
+    QWidget *pre = nullptr;
+    for(int i=1; i<=5; i++)
+    {
+        QWidget *window_for_show_question = new QWidget();
+        window_for_show_question->setWindowTitle("Question number "+ QString::number(i) + " To player");
+        window_for_show_question->maximumSize();
+        QPushButton *button_ok = new QPushButton(" ok ");
+        QVBoxLayout *layout = new QVBoxLayout();
+        layout->addWidget(button_ok);
+        window_for_show_question->setLayout(layout);
+        if(pre != nullptr)
+        {
+            QObject::connect(pre, &QWidget::destroyed, window_for_show_question, &QWidget::show);
+        }
+        if(i <= 5)
+        {
+            button_ok->connect(button_ok, SIGNAL(clicked(bool)), window_for_show_question, SLOT(close()));
+        }
+        window_for_show_question->show();
+        pre = window_for_show_question;
+
+    }
+
+}
+
+
+void choose_the_difficulty_To_question::on_medium_clicked()
+{
+    int conter_of_question_number = 0;
+    QWidget *prevois = nullptr;
+    for(int i=1; i<=5; i++)
+    {
+        QWidget *window_for_show_question_To_difficulty_medium = new QWidget();
+        window_for_show_question_To_difficulty_medium->setWindowTitle("Question number "+ QString::number(conter_of_question_number)+ " To player");
+        window_for_show_question_To_difficulty_medium->geometry()
+        QPushButton *button_ok = new QPushButton(" ok ");
+
+    }
+}
+

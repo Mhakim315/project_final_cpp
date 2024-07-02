@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>choose_the_difficulty_to_question_To_survival_mode</class>
+ <widget class="QDialog" name="choose_the_difficulty_to_question_To_survival_mode">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1128</width>
+    <height>630</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(20, 125, 154);</string>
+  </property>
+  <widget class="QPushButton" name="pushButton">
+   <property name="geometry">
+    <rect>
+     <x>650</x>
+     <y>50</y>
+     <width>241</width>
+     <height>231</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 16pt &quot;Segoe UI&quot;;
+font: 700 italic 16pt &quot;Segoe UI&quot;;
+background-color: rgb(179, 179, 179);
+color: rgb(34, 119, 120);
+background : url('c:/Users/ModernSystem/Downloads/images_easy.jfif');</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_2">
+   <property name="geometry">
+    <rect>
+     <x>370</x>
+     <y>50</y>
+     <width>231</width>
+     <height>231</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 16pt &quot;Segoe UI&quot;;
+font: 700 italic 16pt &quot;Segoe UI&quot;;
+background-color: rgb(179, 179, 179);
+color: rgb(41, 81, 34);
+background : url('c:/Users/ModernSystem/Downloads/images_medium_a.jfif');</string>
+   </property>
+   <property name="text">
+    <string>Medium</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_3">
+   <property name="geometry">
+    <rect>
+     <x>650</x>
+     <y>310</y>
+     <width>241</width>
+     <height>231</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 16pt &quot;Segoe UI&quot;;
+font: 700 italic 16pt &quot;Segoe UI&quot;;
+background : url('c:/Users/ModernSystem/Downloads/images_hard.jfif');
+background-color: rgb(179, 179, 179);
+color: rgb(74, 52, 38);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_4">
+   <property name="geometry">
+    <rect>
+     <x>370</x>
+     <y>310</y>
+     <width>231</width>
+     <height>231</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 16pt &quot;Segoe UI&quot;;
+font: 700 italic 16pt &quot;Segoe UI&quot;;
+background-color: rgb(179, 179, 179);
+color: rgb(107, 51, 101);</string>
+   </property>
+   <property name="text">
+    <string>Any Difficulty</string>
+   </property>
+  </widget>
+  <widget class="QCommandLinkButton" name="commandLinkButton">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>261</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(221, 221, 221);
+color: rgb(78, 255, 205);</string>
+   </property>
+   <property name="text">
+    <string>back To Meno choose the mode</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections>
+  <connection>
+   <sender>pushButton</sender>
+   <signal>clicked()</signal>
+   <receiver>choose_the_difficulty_to_question_To_survival_mode</receiver>
+   <slot>close()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>341</x>
+     <y>70</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>388</x>
+     <y>64</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_2</sender>
+   <signal>clicked()</signal>
+   <receiver>choose_the_difficulty_to_question_To_survival_mode</receiver>
+   <slot>close()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>340</x>
+     <y>190</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>117</x>
+     <y>180</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_3</sender>
+   <signal>clicked()</signal>
+   <receiver>choose_the_difficulty_to_question_To_survival_mode</receiver>
+   <slot>close()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>330</x>
+     <y>267</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>389</x>
+     <y>262</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_4</sender>
+   <signal>clicked()</signal>
+   <receiver>choose_the_difficulty_to_question_To_survival_mode</receiver>
+   <slot>close()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>178</x>
+     <y>383</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>129</x>
+     <y>386</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+</ui>

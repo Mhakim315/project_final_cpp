@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>question_of_player_to_survival_mode</class>
+ <widget class="QDialog" name="question_of_player_to_survival_mode">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1209</width>
+    <height>643</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(33, 85, 88);</string>
+  </property>
+  <widget class="QPushButton" name="pushButton">
+   <property name="geometry">
+    <rect>
+     <x>490</x>
+     <y>480</y>
+     <width>141</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 700 italic 14pt &quot;Segoe UI&quot;;</string>
+   </property>
+   <property name="text">
+    <string>ok</string>
+   </property>
+  </widget>
+  <widget class="QRadioButton" name="options_1">
+   <property name="geometry">
+    <rect>
+     <x>80</x>
+     <y>170</y>
+     <width>1041</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 700 italic 12pt &quot;Segoe UI&quot;;</string>
+   </property>
+   <property name="text">
+    <string>The First options</string>
+   </property>
+  </widget>
+  <widget class="QRadioButton" name="options_2">
+   <property name="geometry">
+    <rect>
+     <x>80</x>
+     <y>230</y>
+     <width>1101</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 700 italic 12pt &quot;Segoe UI&quot;;</string>
+   </property>
+   <property name="text">
+    <string>The second options</string>
+   </property>
+  </widget>
+  <widget class="QRadioButton" name="options_3">
+   <property name="geometry">
+    <rect>
+     <x>80</x>
+     <y>290</y>
+     <width>1121</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 700 italic 12pt &quot;Segoe UI&quot;;</string>
+   </property>
+   <property name="text">
+    <string>The Third options</string>
+   </property>
+  </widget>
+  <widget class="QRadioButton" name="options_4">
+   <property name="geometry">
+    <rect>
+     <x>80</x>
+     <y>350</y>
+     <width>1131</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 700 italic 12pt &quot;Segoe UI&quot;;</string>
+   </property>
+   <property name="text">
+    <string>The Fourth options</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>80</x>
+     <y>80</y>
+     <width>1891</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 700 italic 12pt &quot;Segoe UI&quot;;</string>
+   </property>
+   <property name="text">
+    <string>Question</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_timer">
+   <property name="geometry">
+    <rect>
+     <x>410</x>
+     <y>20</y>
+     <width>451</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(186, 40, 40);
+font: 700 italic 16pt &quot;Segoe UI&quot;;</string>
+   </property>
+   <property name="text">
+    <string>TextLabel</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections>
+  <connection>
+   <sender>pushButton</sender>
+   <signal>clicked()</signal>
+   <receiver>question_of_player_to_survival_mode</receiver>
+   <slot>close()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>314</x>
+     <y>470</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>425</x>
+     <y>440</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+</ui>

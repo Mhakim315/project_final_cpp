@@ -1,0 +1,549 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>window_of_question_player</class>
+ <widget class="QDialog" name="window_of_question_player">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1562</width>
+    <height>867</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(33, 85, 88);background-color: rgb(33, 85, 88);</string>
+  </property>
+  <widget class="QStackedWidget" name="stackedWidget">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>80</y>
+     <width>1541</width>
+     <height>781</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(33, 85, 88);</string>
+   </property>
+   <property name="currentIndex">
+    <number>1</number>
+   </property>
+   <widget class="QWidget" name="page">
+    <widget class="QRadioButton" name="radioButton">
+     <property name="geometry">
+      <rect>
+       <x>50</x>
+       <y>230</y>
+       <width>1061</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font: 700 italic 12pt &quot;Segoe UI&quot;;</string>
+     </property>
+     <property name="text">
+      <string>RadioButton</string>
+     </property>
+    </widget>
+    <widget class="QRadioButton" name="radioButton_2">
+     <property name="geometry">
+      <rect>
+       <x>50</x>
+       <y>290</y>
+       <width>1071</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font: 700 italic 12pt &quot;Segoe UI&quot;;</string>
+     </property>
+     <property name="text">
+      <string>RadioButton</string>
+     </property>
+    </widget>
+    <widget class="QRadioButton" name="radioButton_3">
+     <property name="geometry">
+      <rect>
+       <x>50</x>
+       <y>350</y>
+       <width>1071</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font: 700 italic 12pt &quot;Segoe UI&quot;;</string>
+     </property>
+     <property name="text">
+      <string>RadioButton</string>
+     </property>
+    </widget>
+    <widget class="QRadioButton" name="radioButton_4">
+     <property name="geometry">
+      <rect>
+       <x>50</x>
+       <y>410</y>
+       <width>1081</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font: 700 italic 12pt &quot;Segoe UI&quot;;</string>
+     </property>
+     <property name="text">
+      <string>RadioButton</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label">
+     <property name="geometry">
+      <rect>
+       <x>50</x>
+       <y>150</y>
+       <width>1471</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font: 700 italic 12pt &quot;Segoe UI&quot;;</string>
+     </property>
+     <property name="text">
+      <string>Question 1:</string>
+     </property>
+    </widget>
+    <widget class="QCommandLinkButton" name="commandLinkButton">
+     <property name="geometry">
+      <rect>
+       <x>50</x>
+       <y>30</y>
+       <width>185</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">color: rgb(50, 50, 50);
+font: 700 italic 12pt &quot;Segoe UI&quot;;</string>
+     </property>
+     <property name="text">
+      <string>Next Question</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="page_2">
+    <widget class="QLabel" name="label_2">
+     <property name="geometry">
+      <rect>
+       <x>50</x>
+       <y>150</y>
+       <width>1521</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font: 700 italic 12pt &quot;Segoe UI&quot;;</string>
+     </property>
+     <property name="text">
+      <string>Question 2:</string>
+     </property>
+    </widget>
+    <widget class="QRadioButton" name="radioButton_5">
+     <property name="geometry">
+      <rect>
+       <x>50</x>
+       <y>230</y>
+       <width>1021</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font: 700 italic 12pt &quot;Segoe UI&quot;;</string>
+     </property>
+     <property name="text">
+      <string>RadioButton</string>
+     </property>
+    </widget>
+    <widget class="QRadioButton" name="radioButton_6">
+     <property name="geometry">
+      <rect>
+       <x>50</x>
+       <y>290</y>
+       <width>1031</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font: 700 italic 12pt &quot;Segoe UI&quot;;</string>
+     </property>
+     <property name="text">
+      <string>RadioButton</string>
+     </property>
+    </widget>
+    <widget class="QRadioButton" name="radioButton_7">
+     <property name="geometry">
+      <rect>
+       <x>50</x>
+       <y>350</y>
+       <width>1031</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font: 700 italic 12pt &quot;Segoe UI&quot;;</string>
+     </property>
+     <property name="text">
+      <string>RadioButton</string>
+     </property>
+    </widget>
+    <widget class="QRadioButton" name="radioButton_8">
+     <property name="geometry">
+      <rect>
+       <x>50</x>
+       <y>410</y>
+       <width>1041</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font: 700 italic 12pt &quot;Segoe UI&quot;;</string>
+     </property>
+     <property name="text">
+      <string>RadioButton</string>
+     </property>
+    </widget>
+    <widget class="QCommandLinkButton" name="commandLinkButton_2">
+     <property name="geometry">
+      <rect>
+       <x>50</x>
+       <y>30</y>
+       <width>185</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">color: rgb(50, 50, 50);
+font: 700 italic 12pt &quot;Segoe UI&quot;;</string>
+     </property>
+     <property name="text">
+      <string>Next Question</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="page_3">
+    <widget class="QLabel" name="label_3">
+     <property name="geometry">
+      <rect>
+       <x>50</x>
+       <y>150</y>
+       <width>1631</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font: 700 italic 12pt &quot;Segoe UI&quot;;</string>
+     </property>
+     <property name="text">
+      <string>Question 3:</string>
+     </property>
+    </widget>
+    <widget class="QRadioButton" name="radioButton_9">
+     <property name="geometry">
+      <rect>
+       <x>50</x>
+       <y>230</y>
+       <width>1061</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font: 700 italic 12pt &quot;Segoe UI&quot;;</string>
+     </property>
+     <property name="text">
+      <string>RadioButton</string>
+     </property>
+    </widget>
+    <widget class="QRadioButton" name="radioButton_10">
+     <property name="geometry">
+      <rect>
+       <x>50</x>
+       <y>290</y>
+       <width>1071</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font: 700 italic 12pt &quot;Segoe UI&quot;;</string>
+     </property>
+     <property name="text">
+      <string>RadioButton</string>
+     </property>
+    </widget>
+    <widget class="QRadioButton" name="radioButton_11">
+     <property name="geometry">
+      <rect>
+       <x>50</x>
+       <y>350</y>
+       <width>1081</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font: 700 italic 12pt &quot;Segoe UI&quot;;</string>
+     </property>
+     <property name="text">
+      <string>RadioButton</string>
+     </property>
+    </widget>
+    <widget class="QRadioButton" name="radioButton_12">
+     <property name="geometry">
+      <rect>
+       <x>50</x>
+       <y>410</y>
+       <width>1091</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font: 700 italic 12pt &quot;Segoe UI&quot;;</string>
+     </property>
+     <property name="text">
+      <string>RadioButton</string>
+     </property>
+    </widget>
+    <widget class="QCommandLinkButton" name="commandLinkButton_3">
+     <property name="geometry">
+      <rect>
+       <x>50</x>
+       <y>30</y>
+       <width>185</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">color: rgb(50, 50, 50);
+font: 700 italic 12pt &quot;Segoe UI&quot;;</string>
+     </property>
+     <property name="text">
+      <string>Next Question</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="page_4">
+    <widget class="QLabel" name="label_4">
+     <property name="geometry">
+      <rect>
+       <x>50</x>
+       <y>150</y>
+       <width>1511</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font: 700 italic 12pt &quot;Segoe UI&quot;;</string>
+     </property>
+     <property name="text">
+      <string>Question 4:</string>
+     </property>
+    </widget>
+    <widget class="QRadioButton" name="radioButton_13">
+     <property name="geometry">
+      <rect>
+       <x>50</x>
+       <y>230</y>
+       <width>1131</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font: 700 italic 12pt &quot;Segoe UI&quot;;</string>
+     </property>
+     <property name="text">
+      <string>RadioButton</string>
+     </property>
+    </widget>
+    <widget class="QRadioButton" name="radioButton_14">
+     <property name="geometry">
+      <rect>
+       <x>50</x>
+       <y>350</y>
+       <width>1141</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font: 700 italic 12pt &quot;Segoe UI&quot;;</string>
+     </property>
+     <property name="text">
+      <string>RadioButton</string>
+     </property>
+    </widget>
+    <widget class="QRadioButton" name="radioButton_15">
+     <property name="geometry">
+      <rect>
+       <x>50</x>
+       <y>290</y>
+       <width>1131</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font: 700 italic 12pt &quot;Segoe UI&quot;;</string>
+     </property>
+     <property name="text">
+      <string>RadioButton</string>
+     </property>
+    </widget>
+    <widget class="QRadioButton" name="radioButton_16">
+     <property name="geometry">
+      <rect>
+       <x>50</x>
+       <y>410</y>
+       <width>1141</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font: 700 italic 12pt &quot;Segoe UI&quot;;</string>
+     </property>
+     <property name="text">
+      <string>RadioButton</string>
+     </property>
+    </widget>
+    <widget class="QCommandLinkButton" name="commandLinkButton_4">
+     <property name="geometry">
+      <rect>
+       <x>50</x>
+       <y>30</y>
+       <width>185</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">color: rgb(50, 50, 50);
+font: 700 italic 12pt &quot;Segoe UI&quot;;</string>
+     </property>
+     <property name="text">
+      <string>Next Question</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="page_5">
+    <widget class="QLabel" name="label_5">
+     <property name="geometry">
+      <rect>
+       <x>60</x>
+       <y>110</y>
+       <width>1831</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font: 700 italic 12pt &quot;Segoe UI&quot;;</string>
+     </property>
+     <property name="text">
+      <string>Question 5:</string>
+     </property>
+    </widget>
+    <widget class="QRadioButton" name="radioButton_17">
+     <property name="geometry">
+      <rect>
+       <x>60</x>
+       <y>170</y>
+       <width>1071</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font: 700 italic 12pt &quot;Segoe UI&quot;;</string>
+     </property>
+     <property name="text">
+      <string>RadioButton</string>
+     </property>
+    </widget>
+    <widget class="QRadioButton" name="radioButton_18">
+     <property name="geometry">
+      <rect>
+       <x>60</x>
+       <y>230</y>
+       <width>1081</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font: 700 italic 12pt &quot;Segoe UI&quot;;</string>
+     </property>
+     <property name="text">
+      <string>RadioButton</string>
+     </property>
+    </widget>
+    <widget class="QRadioButton" name="radioButton_19">
+     <property name="geometry">
+      <rect>
+       <x>60</x>
+       <y>290</y>
+       <width>1091</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font: 700 italic 12pt &quot;Segoe UI&quot;;</string>
+     </property>
+     <property name="text">
+      <string>RadioButton</string>
+     </property>
+    </widget>
+    <widget class="QRadioButton" name="radioButton_20">
+     <property name="geometry">
+      <rect>
+       <x>60</x>
+       <y>350</y>
+       <width>1101</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font: 700 italic 12pt &quot;Segoe UI&quot;;</string>
+     </property>
+     <property name="text">
+      <string>RadioButton</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton">
+     <property name="geometry">
+      <rect>
+       <x>340</x>
+       <y>410</y>
+       <width>131</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font: 700 italic 14pt &quot;Segoe UI&quot;;</string>
+     </property>
+     <property name="text">
+      <string>ok</string>
+     </property>
+    </widget>
+   </widget>
+  </widget>
+  <widget class="QLabel" name="timer_pvp">
+   <property name="geometry">
+    <rect>
+     <x>510</x>
+     <y>20</y>
+     <width>391</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 700 italic 14pt &quot;Segoe UI&quot;;
+color: rgb(209, 42, 8);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

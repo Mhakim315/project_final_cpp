@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Choose_the_type_of_game</class>
+ <widget class="QDialog" name="Choose_the_type_of_game">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1107</width>
+    <height>613</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(84, 42, 0);
+background-color: rgb(83, 31, 14);</string>
+  </property>
+  <widget class="QPushButton" name="pushButton">
+   <property name="geometry">
+    <rect>
+     <x>520</x>
+     <y>190</y>
+     <width>121</width>
+     <height>111</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 700 italic 12pt &quot;Segoe UI&quot;;
+background-color: rgb(170, 92, 37);
+background-color: rgb(12, 196, 217);</string>
+   </property>
+   <property name="text">
+    <string>Mode pvp</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_2">
+   <property name="geometry">
+    <rect>
+     <x>520</x>
+     <y>440</y>
+     <width>121</width>
+     <height>111</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 700 italic 12pt &quot;Segoe UI&quot;;
+background-color: rgb(170, 92, 37);
+background-color: rgb(12, 196, 217);</string>
+   </property>
+   <property name="text">
+    <string>Mode Survival</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_3">
+   <property name="geometry">
+    <rect>
+     <x>720</x>
+     <y>190</y>
+     <width>131</width>
+     <height>111</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 700 italic 12pt &quot;Segoe UI&quot;;
+background-color: rgb(170, 92, 37);
+background-color: rgb(12, 196, 217);</string>
+   </property>
+   <property name="text">
+    <string>Description </string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_4">
+   <property name="geometry">
+    <rect>
+     <x>720</x>
+     <y>440</y>
+     <width>131</width>
+     <height>111</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 700 italic 12pt &quot;Segoe UI&quot;;
+background-color: rgb(170, 92, 37);
+background-color: rgb(12, 196, 217);</string>
+   </property>
+   <property name="text">
+    <string>Description</string>
+   </property>
+  </widget>
+  <widget class="QCommandLinkButton" name="commandLinkButton">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>171</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(229, 229, 229);
+background-color: rgb(207, 255, 74);</string>
+   </property>
+   <property name="text">
+    <string>back To Menu Start</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>480</x>
+     <y>110</y>
+     <width>431</width>
+     <height>481</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">
+background-image: url('C:/Users/ModernSystem/Downloads/images_project_2.jfif');</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <zorder>commandLinkButton</zorder>
+  <zorder>label</zorder>
+  <zorder>pushButton</zorder>
+  <zorder>pushButton_3</zorder>
+  <zorder>pushButton_2</zorder>
+  <zorder>pushButton_4</zorder>
+ </widget>
+ <tabstops>
+  <tabstop>pushButton</tabstop>
+  <tabstop>pushButton_3</tabstop>
+  <tabstop>pushButton_2</tabstop>
+  <tabstop>pushButton_4</tabstop>
+ </tabstops>
+ <resources/>
+ <connections/>
+</ui>

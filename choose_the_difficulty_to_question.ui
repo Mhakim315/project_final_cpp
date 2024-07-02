@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>choose_the_difficulty_To_question</class>
+ <widget class="QDialog" name="choose_the_difficulty_To_question">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1071</width>
+    <height>590</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(20, 125, 154);
+</string>
+  </property>
+  <widget class="QPushButton" name="easy">
+   <property name="geometry">
+    <rect>
+     <x>720</x>
+     <y>80</y>
+     <width>241</width>
+     <height>231</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 700 italic 16pt &quot;Segoe UI&quot;;
+background-color: rgb(179, 179, 179);
+color: rgb(34, 119, 120);
+background : url('c:/Users/ModernSystem/Downloads/images_easy.jfif');</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="medium">
+   <property name="geometry">
+    <rect>
+     <x>410</x>
+     <y>80</y>
+     <width>241</width>
+     <height>231</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 700 italic 16pt &quot;Segoe UI&quot;;
+background-color: rgb(179, 179, 179);
+color: rgb(41, 81, 34);
+background : url('c:/Users/ModernSystem/Downloads/images_medium_a.jfif');</string>
+   </property>
+   <property name="text">
+    <string>Medium</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="hard">
+   <property name="geometry">
+    <rect>
+     <x>720</x>
+     <y>340</y>
+     <width>241</width>
+     <height>231</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 700 italic 16pt &quot;Segoe UI&quot;;
+background-color: rgb(179, 179, 179);
+color: rgb(74, 52, 38);
+background : url('c:/Users/ModernSystem/Downloads/images_hard.jfif');</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="any_difficulty">
+   <property name="geometry">
+    <rect>
+     <x>410</x>
+     <y>340</y>
+     <width>241</width>
+     <height>231</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 700 italic 16pt &quot;Segoe UI&quot;;
+background-color: rgb(179, 179, 179);
+color: rgb(107, 51, 101);
+</string>
+   </property>
+   <property name="text">
+    <string>any Difficulty</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>470</x>
+     <y>10</y>
+     <width>411</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 14pt &quot;Segoe UI&quot;;
+font: 700 italic 16pt &quot;Segoe UI&quot;;</string>
+   </property>
+   <property name="text">
+    <string>Determine the difficulty of the question</string>
+   </property>
+  </widget>
+  <zorder>hard</zorder>
+  <zorder>easy</zorder>
+  <zorder>medium</zorder>
+  <zorder>any_difficulty</zorder>
+  <zorder>label</zorder>
+ </widget>
+ <resources/>
+ <connections>
+  <connection>
+   <sender>easy</sender>
+   <signal>clicked()</signal>
+   <receiver>choose_the_difficulty_To_question</receiver>
+   <slot>close()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>286</x>
+     <y>68</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>388</x>
+     <y>66</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>medium</sender>
+   <signal>clicked()</signal>
+   <receiver>choose_the_difficulty_To_question</receiver>
+   <slot>close()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>219</x>
+     <y>188</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>70</x>
+     <y>177</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>hard</sender>
+   <signal>clicked()</signal>
+   <receiver>choose_the_difficulty_To_question</receiver>
+   <slot>close()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>301</x>
+     <y>266</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>366</x>
+     <y>272</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>any_difficulty</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>choose_the_difficulty_To_question</receiver>
+   <slot>close()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>223</x>
+     <y>380</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>62</x>
+     <y>369</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+</ui>
